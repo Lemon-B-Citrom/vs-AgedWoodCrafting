@@ -1,51 +1,152 @@
 [
     {
-        "op": "replace",
-        "path": "/combustiblePropsByType/log-*-birch-*/burnDuration",
-        "value": 1000,
-        "file": "blocktypes/wood/log.json"
-    },
-    {
-        "op": "replace",
-        "path": "/combustiblePropsByType/log-*-birch-*/burnTemperature",
-        "value": 2000,
-        "file": "blocktypes/wood/log.json"
-    },
-    {
         "op": "add",
-        "path": "/combustiblePropsByType/log-*-birch-*/meltingPoint",
+        "path": "/combustiblePropsByType/log-*-oak-*/meltingPoint",
         "value": 200,
         "file": "blocktypes/wood/log.json"
     },
     {
         "op": "add",
-        "path": "/combustiblePropsByType/log-*-birch-*/meltingDuration",
-        "value": 1,
+        "path": "/combustiblePropsByType/log-*-oak-*/meltingDuration",
+        "value": 10,
         "file": "blocktypes/wood/log.json"
     },
     {
         "op": "add",
-        "path": "/combustiblePropsByType/log-*-birch-*/smeltingType",
+        "path": "/combustiblePropsByType/log-*-oak-*/smeltingType",
         "value": "bake",
         "file": "blocktypes/wood/log.json"
     },
     {
         "op": "add",
-        "path": "/combustiblePropsByType/log-*-birch-*/smeltingType",
+        "path": "/combustiblePropsByType/log-*-oak-*/smeltedStack",
+        "value": {type: "block", code: "log-placed-aged-ud"},
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-oak-*/requiresContainer",
+        "value": false,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/meltingPoint",
+        "value": 200,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/meltingDuration",
+        "value": 10,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/smeltingType",
         "value": "bake",
         "file": "blocktypes/wood/log.json"
     },
     {
         "op": "add",
-        "path": "/combustiblePropsByType/log-*-birch-*/smeltedStack",
-        "value": {type: "block", code: "claypot-burned"},
+        "path": "/combustiblePropsByType/log-*-maple-*/smeltedStack",
+        "value": {type: "block", code: "log-placed-aged-ud"},
         "file": "blocktypes/wood/log.json"
     },
     {
         "op": "add",
-        "path": "/combustiblePropsByType/log-*-birch-*/requiresContainer",
+        "path": "/combustiblePropsByType/log-*-maple-*/requiresContainer",
+        "value": false,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/meltingPoint",
+        "value": 200,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/meltingDuration",
+        "value": 10,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/smeltingType",
+        "value": "bake",
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/smeltedStack",
+        "value": {type: "block", code: "log-placed-aged-ud"},
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-maple-*/requiresContainer",
+        "value": false,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/meltingPoint",
+        "value": 200,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/meltingDuration",
+        "value": 10,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/smeltingType",
+        "value": "bake",
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/smeltedStack",
+        "value": {type: "block", code: "log-placed-aged-ud"},
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/requiresContainer",
+        "value": false,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/meltingPoint",
+        "value": 200,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/meltingDuration",
+        "value": 10,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/smeltingType",
+        "value": "bake",
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/smeltedStack",
+        "value": {type: "block", code: "log-placed-aged-ud"},
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-pine-*/requiresContainer",
         "value": false,
         "file": "blocktypes/wood/log.json"
     }
-
 ]
