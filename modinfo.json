@@ -1,0 +1,16 @@
+{
+	"type": "content",
+	"modid": "agedwoodcrafting",
+	"name": "Aged Wood Crafting",
+	"version": "1.0.0",
+	
+	"description": "Craft aged wood via baking regular wood.",
+	"website": "https://youtu.be/dQw4w9WgXcQ",
+	"author": "Burktross",
+	
+	"side": "server",
+	"dependencies": {
+		"game": "1.14.10",
+		"survival": "1.14.10"
+	}
+}

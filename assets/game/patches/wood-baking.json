@@ -1,0 +1,51 @@
+[
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType/log-*-birch-*/burnDuration",
+        "value": 1000,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType/log-*-birch-*/burnTemperature",
+        "value": 2000,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-birch-*/meltingPoint",
+        "value": 200,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-birch-*/meltingDuration",
+        "value": 1,
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-birch-*/smeltingType",
+        "value": "bake",
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-birch-*/smeltingType",
+        "value": "bake",
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-birch-*/smeltedStack",
+        "value": {type: "block", code: "claypot-burned"},
+        "file": "blocktypes/wood/log.json"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/log-*-birch-*/requiresContainer",
+        "value": false,
+        "file": "blocktypes/wood/log.json"
+    }
+
+]
